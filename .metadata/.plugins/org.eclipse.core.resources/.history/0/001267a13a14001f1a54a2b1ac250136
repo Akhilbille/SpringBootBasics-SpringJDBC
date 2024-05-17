@@ -1,0 +1,24 @@
+package com.example.PSpringBoot4.dao;
+
+import java.util.List;
+
+import javax.sql.DataSource;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+public class EmployeeDAOImp implements IemployeePersistency {
+
+	List<Employee> employes;
+	
+	
+	private DataSource dataSource;
+	
+	@Override
+	public List<Employee> getEmployeesData() {
+		
+		
+		
+		return null;
+	}
+
+}

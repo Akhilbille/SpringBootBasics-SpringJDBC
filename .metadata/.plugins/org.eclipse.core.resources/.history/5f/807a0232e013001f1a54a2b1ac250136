@@ -1,0 +1,5 @@
+package com.example.PSpringBoot4.dao;
+
+public interface IemployeePersistency {
+	get
+}

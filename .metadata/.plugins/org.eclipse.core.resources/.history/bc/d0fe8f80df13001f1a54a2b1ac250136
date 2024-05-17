@@ -1,0 +1,11 @@
+package com.example.PSpringBoot4.dao;
+
+
+public class Employee {
+	private Integer id;
+	private String city;
+	private String name;
+	
+	
+
+}

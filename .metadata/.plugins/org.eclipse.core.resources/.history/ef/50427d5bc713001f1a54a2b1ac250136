@@ -1,0 +1,7 @@
+package com.Practise.PSpringBoot2;
+
+public class Student {
+	private String name;
+	
+
+}

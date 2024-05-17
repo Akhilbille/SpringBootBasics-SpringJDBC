@@ -1,0 +1,13 @@
+package com.example.PSpringBoot4.dao;
+
+import java.util.List;
+
+public class EmployeeDAOImp implements IemployeePersistency {
+
+	@Override
+	public List<Employee> getEmployeesData() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

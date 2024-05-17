@@ -1,0 +1,6 @@
+spring.application.name=PSpringBoot4
+
+sprnig.datasource.url = jdbc:mysql://localhost/Company;
+spring.datasource.username = root
+spring.datasource.password = root
+

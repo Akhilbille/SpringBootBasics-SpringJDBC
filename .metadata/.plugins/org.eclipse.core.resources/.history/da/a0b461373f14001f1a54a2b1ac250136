@@ -1,0 +1,4 @@
+spring.application.name=PSpringBoot4
+
+sprnig.datasource.url = jdbc.mysql:///telusko_db;
+spring.datasource.username

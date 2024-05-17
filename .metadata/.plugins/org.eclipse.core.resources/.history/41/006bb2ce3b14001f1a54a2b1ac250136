@@ -1,0 +1,39 @@
+package com.example.PSpringBoot4.dao;
+
+import java.sql.Connection;
+import java.sql.SQLException;
+import java.util.List;
+
+import javax.sql.DataSource;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+@Repository("dao")
+public class EmployeeDAOImp implements IemployeePersistency {
+
+	private static final String SQL_QUERY = "SELECT * FROM employee";
+
+	List<Employee> employes;
+	
+	@Autowired
+	private DataSource dataSource;
+	
+	public EmployeeDAOImp() {
+		System.out.println("Employee Bean is created.");
+	}
+	
+	@Override
+	public List<Employee> getEmployeesData() {
+		 try {
+			Connection connection = dataSource.getConnection(); //Connection is from HikariCP
+			connection.prepareStatement(SQL_QUERY)
+	 		} 
+		 catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		 	}
+		return null;
+	}
+
+}

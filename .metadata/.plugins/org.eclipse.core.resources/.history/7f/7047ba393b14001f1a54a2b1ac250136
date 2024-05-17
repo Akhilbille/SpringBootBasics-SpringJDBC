@@ -1,0 +1,28 @@
+package com.example.PSpringBoot4.dao;
+
+import java.util.List;
+
+import javax.sql.DataSource;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+@Repository("dao")
+public class EmployeeDAOImp implements IemployeePersistency {
+
+	List<Employee> employes;
+	
+	@Autowired
+	private DataSource dataSource;
+	
+	public EmployeeDAOImp() {
+		System.out.println("Employee Bean is created.");
+	}
+	
+	@Override
+	public List<Employee> getEmployeesData() {
+		dataS
+		return null;
+	}
+
+}

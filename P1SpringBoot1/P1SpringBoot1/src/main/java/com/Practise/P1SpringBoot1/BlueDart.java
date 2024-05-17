@@ -1,0 +1,18 @@
+package com.Practise.P1SpringBoot1;
+
+import org.springframework.stereotype.Service;
+
+@Service("bd")
+public class BlueDart implements DeliverService {
+	
+	public BlueDart() {
+		System.out.println("Blue dart Bean created");
+	}
+
+	@Override
+	public Boolean deliverProduct(Double amount) {
+		System.out.println("Delivering through Blue Dart : "+amount);
+		return true;
+	}
+
+}

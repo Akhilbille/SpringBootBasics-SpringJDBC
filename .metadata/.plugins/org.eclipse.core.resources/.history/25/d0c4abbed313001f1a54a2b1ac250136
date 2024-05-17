@@ -1,0 +1,11 @@
+package com.Practise.PSpringBoot3.services;
+
+public class Servlet implements Courses {
+
+	@Override
+	public void buyCourse(String course) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

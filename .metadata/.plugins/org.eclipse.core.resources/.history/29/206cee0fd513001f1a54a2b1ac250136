@@ -1,0 +1,13 @@
+package com.Practise.PSpringBoot3.services;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
+public class Telusko {
+	
+	@Autowired
+	@Qualifier()
+	private Courses course;
+
+}

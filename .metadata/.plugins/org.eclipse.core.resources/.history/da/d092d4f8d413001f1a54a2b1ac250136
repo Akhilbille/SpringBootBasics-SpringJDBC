@@ -1,0 +1,6 @@
+package com.Practise.PSpringBoot3.services;
+
+@Component
+public class Telusko {
+
+}
